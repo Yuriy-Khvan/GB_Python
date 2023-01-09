@@ -69,3 +69,14 @@
 # Пример:
 # - для k = 8 список будет выглядеть так: [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21]
 #  [Негафибоначчи]
+# def positive_fib(n):
+# 	pos_list = [0,1]
+# 	for i in range(n-1):
+# 		pos_list.append(pos_list[-2] + pos_list[-1])
+# 	return pos_list
+# def negative_fib(n):
+# 	negat_list = [1,0]
+# 	for i in range(n-1):
+# 		negat_list.insert(0,negat_list[1] - negat_list[0])
+# 	return negat_list
+# print(negative_fib(8) + positive_fib(8)[1:])  
